@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CommunityFix",
+    "slug": "community-fix",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#6366f1"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6366f1"
+      }
+    },
+    "extra": {
+      "firebaseApiKey": "YOUR_API_KEY",
+      "firebaseAuthDomain": "YOUR_PROJECT.firebaseapp.com",
+      "firebaseProjectId": "YOUR_PROJECT_ID",
+      "firebaseStorageBucket": "YOUR_PROJECT.appspot.com",
+      "firebaseMessagingSenderId": "YOUR_SENDER_ID",
+      "firebaseAppId": "YOUR_APP_ID"
+    }
+  }
+}
